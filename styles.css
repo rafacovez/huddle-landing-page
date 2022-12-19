@@ -18,9 +18,13 @@ html {
 
 body {
     margin: 0;
-    padding: 4rem 2rem;
+    padding: 2rem;
     background-color: var(--violet);
     color: #fff;
+}
+
+.logo-wrapper > img {
+    max-width: 150px;
 }
 
 main {
@@ -30,7 +34,7 @@ main {
 
 .img-wrapper {
     margin: 0;
-    padding: 0 0 4rem 0;
+    padding: 4rem 0;
 }
 
 .img-wrapper > img {
