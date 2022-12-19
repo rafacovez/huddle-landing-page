@@ -30,11 +30,13 @@ body {
 main {
     display: grid;
     place-items: center;
+    margin: 0;
+    padding: 4rem 0;
 }
 
 .img-wrapper {
     margin: 0;
-    padding: 4rem 0;
+    padding: 0 0 4rem 0;
 }
 
 .img-wrapper > img {
