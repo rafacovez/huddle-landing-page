@@ -5,6 +5,7 @@
     --font-poppins: 'Poppins', sans-serif;
     --font-bold: 600;
     --font-regular: 400;
+    --font-size: 2em;
 }
 
 html {
@@ -13,4 +14,58 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 4rem 2rem;
+    background-color: var(--violet);
+    color: #fff;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.heading {
+    font-family: var(--font-poppins);
+    font-size: calc(var(--font-size) * 0.8);
+    font-weight: var(--font-bold);
+    line-height: calc(var(--font-size) * 0.6);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.product-descrip {
+    font-family: var(--font-open-sans);
+    font-size: calc(var(--font-size) * 0.5);
+    font-weight: var(--font-regular);
+    line-height: calc(var(--font-size) * 0.8);
+    text-align: center;
+}
+
+.btn {
+    font-family: var(--font-open-sans);
+    font-size: calc(var(--font-size) * 0.4);
+    font-weight: var(--font-regular);
+    background-color: #fff;
+    color: var(--violet);
+    border: none;
+    border-radius: 24px;
+    margin: 0;
+    padding: 1em 4rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.attribution {
+    text-align: center;
+    margin: 0;
+    padding: 4rem 0 0 0;
+}
+
+.attribution > a {
+    color: var(--soft-magenta);
 }
