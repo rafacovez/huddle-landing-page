@@ -28,6 +28,15 @@ main {
     place-items: center;
 }
 
+.img-wrapper {
+    margin: 0;
+    padding: 0 0 4rem 0;
+}
+
+.img-wrapper > img {
+    max-width: 100%;
+}
+
 .heading {
     font-family: var(--font-poppins);
     font-size: calc(var(--font-size) * 0.8);
