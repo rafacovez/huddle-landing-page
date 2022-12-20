@@ -99,6 +99,12 @@ main {
     color: #fff;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .attribution {
     font-family: var(--font-open-sans);
     font-size: calc(var(--font-size) * 0.4);
@@ -110,6 +116,30 @@ main {
 
 .attribution > a {
     color: var(--soft-magenta);
+}
+
+.social-icons-wrapper {
+    margin: 0;
+    padding: 0 0 1rem 0;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid;
+    border-color: #fff;
+    border-radius: 50%;
+    margin: 1rem;
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+
+.social-icon:hover {
+    color: var(--soft-magenta);
+    border-color: var(--soft-magenta);
 }
 
 @media only screen and (min-width: 1440px) {
@@ -134,7 +164,7 @@ main {
         font-size: calc(var(--font-size) * 1.2);
     }
 
-    .attribution {
+    footer {
         position: absolute;
         right: 0;
         bottom: 0;
